@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "370283585068",
+    "firebase_url": "https://any-learn-52491.firebaseio.com",
+    "project_id": "any-learn-52491",
+    "storage_bucket": "any-learn-52491.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370283585068:android:6a675148ddd5102f",
+        "android_client_info": {
+          "package_name": "india.abhijeet.k.anylearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370283585068-a4dnphr6utjoro5vetokq0nmrg88g4j8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "india.abhijeet.k.anylearn",
+            "certificate_hash": "896538e8e7b663ffd320fdf5cabd597b288a7dbe"
+          }
+        },
+        {
+          "client_id": "370283585068-lbobf2jiappk0b33puahdmio8sfv20o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DT-N8xP2hnK3aM0cu3LKIxvOhtOD2Q8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370283585068-lbobf2jiappk0b33puahdmio8sfv20o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

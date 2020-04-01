@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbk"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center"
+        android:text="Welcome"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimary"
+          android:layout_margin="5dp"
+        android:textSize="56sp"/>
+
+    <TextView
+        android:id="@+id/txt_userProp_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Your Profile Here"
+        android:fontFamily="serif"
+         android:textColor="@color/colorPrimary"
+        android:layout_margin="14dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Dear student you don`t have to worry about your missed lectures.Now you can learn Anything anywhere With"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="18dp"
+        android:fontFamily="serif"
+        android:textColor="#000000"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:text="Any Learn"
+        android:textColor="#000000"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/usrdp"
+
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Upload Lectures Here"
+        android:id="@+id/txt_show_upload"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+         android:id="@+id/linlayout_video_container"
+       android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+
+        android:layout_below="@id/txt_show_upload"
+        android:orientation="vertical"
+
+
+        >
+
+    <Button
+        android:id="@+id/btn_choose_upload_video"
+       android:text="Choose Video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            >
+
+        <VideoView
+            android:id="@+id/videoView_upload_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linlayout_video_container"
+        android:orientation="vertical"
+        >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+
+
+        <EditText
+            android:id="@+id/txt_upload_video_title"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Choose a title for this video"
+
+            />
+
+        <Button
+            android:id="@+id/btn_upload_video"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:foreground="@drawable/ic_file_upload_black_24dp"
+
+
+            android:clickable="true" />
+
+</LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progress_upload_video"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:outlineSpotShadowColor="#ff0000" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resnewbk"
+     android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/txt_policy_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:textColor="@color/background"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Privacy Policy "
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_policy_title"
+        android:padding="2dp"
+        >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="2dp"
+        android:padding="2dp"
+
+        android:textColor="@color/background"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:text="Blaze Coders built the Any Learn app as a Commercial app. This SERVICE is provided by Blaze Coders and is intended for use as is."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="12dp"
+        android:padding="2dp"
+          android:layout_marginTop="2dp"
+        android:textColor="@color/background"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:text="    If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy."
+
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/txt_pripolicy_go_online"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More about Privacy policy"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_termsCondi_go_online"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+
+        />
+
+
+
+
+
+       </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

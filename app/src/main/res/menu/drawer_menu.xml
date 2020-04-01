@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:title="Capture video" />
+
+
+
+        <item android:id="@+id/nav_lectures"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="Lectures" />
+
+
+        <item android:id="@+id/nav_upload_lecture"
+            android:icon="@drawable/ic_file_upload_black_24dp"
+            android:title="Upload Lecture" />
+
+
+
+        <item android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Privacy Policy" />
+
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About this" />
+
+
+        <item android:id="@+id/nav_myProfile"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="My Profile" />
+
+
+
+    </group>
+
+    <item android:title="  ">
+        <menu>
+           <item android:id="@+id/nav_logout"
+               android:icon="@drawable/ic_exit_to_app_black_24dp"
+               android:title="Log Out"
+
+               />
+
+        </menu>
+
+    </item>
+
+
+
+</menu>
